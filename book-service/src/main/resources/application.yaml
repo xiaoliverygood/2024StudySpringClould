@@ -1,0 +1,16 @@
+server:
+  port: 8102
+
+spring:
+  application:
+    name: book-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.132.67.226:3306/cx
+    username: xiaoli
+    password: abC123456@
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
